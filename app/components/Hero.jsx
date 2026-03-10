@@ -7,7 +7,7 @@ const Hero = () => {
     <div>
       <div className={`${!darkMode ? "bg-black text-white" : "bg-white text-gray-700"} min-h-screen`}>
         <div className="flex justify-end p-5 items-center gap-10">
-          <div className={`font-title ${!darkMode ? "text-white p-2 hover:bg-white hover:text-black hover:rounded-xl cursor-pointer" : "hover:bg-black hover:text-white p-2 hover:rounded-xl cursor-pointer"}`}>
+          <div className={`font-title ${!darkMode ? "text-white p-2 hover:bg-white hover:text-black hover:rounded-xl cursor-pointer" : "hover:bg-black hover:text-white p-2 hover:rounded-xl cursor-pointer"}`} onClick={()=>window.open("/Lk Srikar Karthik.pdf","_blank")}>
             Resume
           </div>
           <button
