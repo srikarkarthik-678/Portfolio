@@ -115,11 +115,11 @@ const Hero = () => {
               </div>
               <div className="twoflex">
                 <div className="upperflex flex justify-between items-center px-10 max-lg:flex max-lg:flex-col max-lg:items-center max-lg:justify-center">
-                  <div className={`firstbox w-[300px] p-2 py-4 hover:border ${!darkMode ? " p-2 bg-white/5 backdrop-blur-lg border border-white/10 rounded-xl" : "p-2  hover:border hover:border-black hover:rounded-xl hover:p-2"} hover:border-black hover:rounded-xl  hover:p-2`}>
+                  <div className={`firstbox w-[300px] p-2 py-4 hover:border ${!darkMode ? " p-2 bg-white/5 backdrop-blur-lg border border-white/10 rounded-xl" : "p-2  hover:border hover:border-black hover:rounded-xl hover:p-2"} `}>
                     <div className="email font-bat">Email id</div>
                     <p className='font-title text-sm'>srikarkarthik93@gmail.com</p>
                   </div>
-                  <a href="https://www.linkedin.com/in/srikar-karthik-4723b32b4/"><div className={`secondbox py-4 p-2 hover:border w-[300px] max-sm:mt-3 ${!darkMode ? " p-2 bg-white/5 backdrop-blur-lg border border-white/10 rounded-xl" : "p-2  hover:border hover:border-black hover:rounded-xl hover:p-2"} hover:border-black hover:rounded-xl hover:p-2`}>
+                  <a href="https://www.linkedin.com/in/srikar-karthik-4723b32b4/"><div className={`secondbox py-4 p-2 hover:border w-[300px] max-sm:mt-3 ${!darkMode ? " p-2 bg-white/5 backdrop-blur-lg border border-white/10 rounded-xl" : "p-2  hover:border hover:border-black hover:rounded-xl hover:p-2"} `}>
                     <div className='flex items-center'>
                       <div className="LinkedIn font-bat">LinkedIn</div>
                       <img src="arrow_outward_24dp_CCCCCC_FILL0_wght400_GRAD0_opsz24.svg" alt="" />
@@ -129,7 +129,7 @@ const Hero = () => {
                   
                 </div>
                 <div className={`Lowerflex flex justify-between  items-center px-10 mt-5  max-lg:flex max-lg:flex-col max-lg:items-center max-lg:justify-center`}>
-                  <a href="https://github.com/srikarkarthik-678?tab=repositories"><div className={`firstbox w-[300px] py-4 p-2 hover:border ${!darkMode ? " p-2 bg-white/5 backdrop-blur-lg border border-white/10 rounded-xl" : "p-2  hover:border hover:border-black hover:rounded-xl hover:p-2"} hover:border-black hover:rounded-xl hover:p-2`}>
+                  <a href="https://github.com/srikarkarthik-678?tab=repositories"><div className={`firstbox w-[300px] py-4 p-2 hover:border ${!darkMode ? " p-2 bg-white/5 backdrop-blur-lg border border-white/10 rounded-xl" : "p-2  hover:border hover:border-black hover:rounded-xl hover:p-2"} `}>
                     <div className='flex items-center'>
                       <div className="GitHub font-bat">GitHub</div>
                       <img src="arrow_outward_24dp_CCCCCC_FILL0_wght400_GRAD0_opsz24.svg" alt="" />
